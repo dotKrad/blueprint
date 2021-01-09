@@ -4,7 +4,7 @@
         "step": {
             "user": {
                 "title": "Blueprint",
-                "description": "If you need help with the configuration have a look here: https://github.com/custom-components/blueprint",
+                "description": "If you need help with the configuration have a look here: https://github.com/custom-components/integration_blueprint",
                 "data": {
                     "username": "Username",
                     "password": "Password"
@@ -16,6 +16,17 @@
         },
         "abort": {
             "single_instance_allowed": "Only a single configuration of Blueprint is allowed."
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "data": {
+                    "binary_sensor": "Binary sensor enabled",
+                    "sensor": "Sensor enabled",
+                    "switch": "Switch enabled"
+                }
+            }
         }
     }
 }

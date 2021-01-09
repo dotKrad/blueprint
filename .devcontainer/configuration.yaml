@@ -1,20 +1,6 @@
 default_config:
+
 logger:
-  default: error
+  default: info
   logs:
-    custom_components.blueprint: debug
-
-
-
-blueprint:
-  username: my_username
-  password: my_password
-  binary_sensor:
-    - enabled: true
-      name: My custom name
-  sensor:
-    - enabled: true
-      name: My custom name
-  switch:
-    - enabled: true
-      name: My custom name
+    custom_components.integration_blueprint: debug
