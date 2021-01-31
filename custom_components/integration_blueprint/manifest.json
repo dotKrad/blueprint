@@ -5,6 +5,7 @@
   "issue_tracker": "https://github.com/custom-components/integration_blueprint/issues",
   "dependencies": [],
   "config_flow": true,
+  "version" : "0.0.0",
   "codeowners": [
     "@ludeeus"
   ],
