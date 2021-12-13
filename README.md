@@ -23,7 +23,6 @@ File | Purpose
 `.devcontainer/*` | Used for development/testing with VSCODE, more info in the readme file in that dir.
 `.github/ISSUE_TEMPLATE/feature_request.md` | Template for Feature Requests
 `.github/ISSUE_TEMPLATE/issue.md` | Template for issues
-`.github/settings.yml` | Probot settings to control the repository settings.
 `.vscode/tasks.json` | Tasks for the devcontainer.
 `custom_components/integration_blueprint/translations/*` | [Translation files.](https://developers.home-assistant.io/docs/internationalization/custom_integration)
 `custom_components/integration_blueprint/__init__.py` | The component file for the integration.
@@ -106,7 +105,7 @@ Platform | Description
 4. Download _all_ the files from the `custom_components/integration_blueprint/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Restart Home Assistant
-7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Blueprint"
+7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Integration blueprint"
 
 Using your HA configuration directory (folder) as a starting point you should now also have this:
 
